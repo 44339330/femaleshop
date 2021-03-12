@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-const Home = () => import('../views/tabbar/home/Home')
-const Cart = () => import('../views/tabbar/cart/Cart')
-const Category = () => import('../views/tabbar/category/Category')
-const Profile = () => import('../views/tabbar/profile/Profile')
+const Home = () => import('../views/home/Home')
+const Cart = () => import('../views/cart/Cart')
+const Category = () => import('../views/category/Category')
+const Profile = () => import('../views/profile/Profile')
 const routes = [
   {
     path: '/',
@@ -23,7 +23,7 @@ const routes = [
   {
     path: '/profile',
     component: Profile
-  },
+  }
 
 ]
 const router = createRouter({
