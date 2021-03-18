@@ -19,6 +19,9 @@ export default {
 .center {
   flex: 1;
   text-align: center;
+  font-size: 16px;
+  color: #F8F8FF;
+  font-weight: 600;
 }
 .left, .right {
   width: 60px;

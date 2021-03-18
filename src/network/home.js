@@ -5,7 +5,7 @@ export function getHomeMultiData() {
     url: '/home/multidata'
   })
 }
-export function getProductData(type, page) {
+export function getHomeData(type,page) {
   return request({
     url: '/home/data',
     params: {

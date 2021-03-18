@@ -1,8 +1,13 @@
 <template>
   <div id="nav">
+    <router-view v-slot="{ Component }">
+      <keep-alive exclude="Detail">
+        <component :is="Component" />
+      </keep-alive>
+    </router-view>
     <main-tab-bar></main-tab-bar>
   </div>
-  <router-view/>
+  
 </template>
 <script>
 import './assets/css/base.css'

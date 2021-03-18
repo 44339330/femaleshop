@@ -41,7 +41,7 @@ export default {
   methods: {
     // 跳转路由
     itemClick () {
-      this.$router.replace(this.path)
+      this.$router.replace(this.path) // this.path来自MainTabBar
     }
   }
 }
